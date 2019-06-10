@@ -1,8 +1,11 @@
+//CAMBIAR RED Y CLAVE DE RED
+//USUARIO= Usuario; CONTRASEÑA= Usuario 
+
 #include <ESP8266WiFi.h>                    
 #include <ESP8266WebServer.h>
 
-String ssid = "Emanuel";//"Fibertel WiFi860";
-String contra = "ema200123";//"0141880875";
+String ssid = "RED";
+String contra = "CONTRASEÑA";
 
 ESP8266WebServer server(80);
 
@@ -12,7 +15,7 @@ void Error();
 
 
 String usuario = "Usuario";
-String pass = "Usuario123";
+String pass = "Usuario";
 
 
 void setup()
